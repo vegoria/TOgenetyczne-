@@ -8,6 +8,6 @@ namespace GeneticAlgorithm
 {
     interface IGoalFunction
     {
-        double goal(Population);
+        double goal(Population population);
     }
 }

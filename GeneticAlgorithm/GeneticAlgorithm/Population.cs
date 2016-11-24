@@ -24,7 +24,6 @@ namespace GeneticAlgorithm
                 return populationSize;
             }
         }
-
         public int PopulationId
         {
             get
