@@ -41,10 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICrossing.cs" />
+    <Compile Include="IGoalFunction.cs" />
     <Compile Include="IIndividual.cs" />
     <Compile Include="IMutation.cs" />
     <Compile Include="ISelection.cs" />
     <Compile Include="Population.cs" />
+    <Compile Include="Problem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
