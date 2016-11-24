@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeneticAlgorithm
 {
-    class Individual
+    interface IMutation
     {
     }
 }

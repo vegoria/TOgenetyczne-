@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Individual.cs" />
+    <Compile Include="ICrossing.cs" />
+    <Compile Include="IIndividual.cs" />
+    <Compile Include="IMutation.cs" />
+    <Compile Include="ISelection.cs" />
     <Compile Include="Population.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
