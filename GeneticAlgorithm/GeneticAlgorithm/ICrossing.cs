@@ -8,5 +8,11 @@ namespace GeneticAlgorithm
 {
     interface ICrossing
     {
+        void makeCorssing(IIndividual firstIndividual, IIndividual secondIndividual);
+        int DividePossition
+        {
+            get;
+            set;
+        }
     }
 }

@@ -8,5 +8,6 @@ namespace GeneticAlgorithm
 {
     interface ISelection
     {
+        Population makeSelection(Population populationToSelect);
     }
 }
