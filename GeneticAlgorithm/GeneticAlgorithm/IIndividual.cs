@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GeneticAlgorithm
 {
-    interface IIndividual
+    public interface IIndividual
     {
         double AdaptationLevel
         {
