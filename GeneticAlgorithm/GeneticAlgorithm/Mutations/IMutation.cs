@@ -8,6 +8,6 @@ namespace GeneticAlgorithm
 {
     interface IMutation
     {
-        void makeMutation(IIndividual individualToMutate);
+        Population makeMutation(Population populationToMutate);
     }
 }

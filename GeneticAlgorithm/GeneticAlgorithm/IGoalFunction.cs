@@ -9,5 +9,6 @@ namespace GeneticAlgorithm
     interface IGoalFunction
     {
         double goal(Population population);
+        double percentOfAdaptation(Population population);
     }
 }

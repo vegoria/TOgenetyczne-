@@ -8,5 +8,15 @@ namespace GeneticAlgorithm
 {
     interface IIndividual
     {
+        double AdaptationLevel
+        {
+            get;
+            set;
+        }
+        double Value
+        {
+            get;
+            set;
+        }
     }
 }

@@ -11,6 +11,8 @@ namespace GeneticAlgorithm
         private static int nextGenerationId = 1;
         private readonly int populationSize;
         private readonly int populationId;
+        private List<IIndividual> individuals;
+
         public Population(int size)
         {
             populationSize = size;
@@ -31,5 +33,6 @@ namespace GeneticAlgorithm
                 return populationId;
             }
         }
+
     }
 }

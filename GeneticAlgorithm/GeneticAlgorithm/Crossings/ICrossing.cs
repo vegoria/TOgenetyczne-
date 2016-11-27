@@ -8,7 +8,7 @@ namespace GeneticAlgorithm
 {
     interface ICrossing
     {
-        void makeCorssing(IIndividual firstIndividual, IIndividual secondIndividual);
+        Population makeCorssing(Population populationToCross);
         int DividePossition
         {
             get;
